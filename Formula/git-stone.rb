@@ -3,27 +3,27 @@
 class GitStone < Formula
   desc "Save task boundaries as you work, turn them into atomic Git commits later"
   homepage "https://github.com/HarshKothari88/git-stone"
-  version "0.2.0"
+  version "0.3.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
       url "https://github.com/HarshKothari88/git-stone/releases/download/v#{version}/git-stone-aarch64-apple-darwin.tar.gz"
-      sha256 "750ca19fde984f445a0ca66991a7c4e884599be934519a47da70b71b99a4c757"
+      sha256 "af1b272989a12ac6f4e1bbec9af94505d9b70c2536475c9e3567c3b42ee4a860"
     end
     on_intel do
       url "https://github.com/HarshKothari88/git-stone/releases/download/v#{version}/git-stone-x86_64-apple-darwin.tar.gz"
-      sha256 "a92c7379187bf1171b2da31cc24ae93ffe1ee59b1603a22d905cf1da4066c471"
+      sha256 "c2b24ad67bdf87ff4a91fcbac6c0dbbcc3583f0daa495385ca68ca747559bd5f"
     end
   end
   on_linux do
     on_arm do
       url "https://github.com/HarshKothari88/git-stone/releases/download/v#{version}/git-stone-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e0f285c06c363c58d8e76308d8d9f44ca257f275138c5736cda35271d1482bbb"
+      sha256 "e2fa77db3ab2cb16d080efeaf4827f5b45e713ab87f1cc12c24de06a7d13fb7a"
     end
     on_intel do
       url "https://github.com/HarshKothari88/git-stone/releases/download/v#{version}/git-stone-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "f403127754ce3b93d1f28b74ae4ebd9daf12d20e460f76d0a0f967d5d94cfa24"
+      sha256 "e1f78ac63b491d4db07b380a7fffc16bd047942a651c81b56a83028d472840c0"
     end
   end
 
